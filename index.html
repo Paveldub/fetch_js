@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <form action="server.php" method="POST" id="form">
+                <label for="one" class="form__label">Name</label>
+                <input name="name" type="text" class="form__iput" id="one" placeholder="Name">
+                <label for="two" class="form__label">Age</label>
+                <input name="age" type="text" class="form__iput" id="two" placeholder="Age">
+                <button type="submit">Send</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
